@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humberto Letelier Vergara | Ingeniero en Informática</title>
+    <style>
+        /* Estilos básicos (personaliza colores/fuentes) */
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .subtitle {
+            font-size: 1.5rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+            background: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background: #2c3e50;
+            color: white;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Humberto Letelier Vergara</h1>
+        <p class="subtitle">Ingeniero en Informática</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre Mí</h2>
+            <p>Ingeniero en Informática con experiencia en desarrollo de software y automatización de procesos. Apasionado por crear soluciones tecnológicas eficientes y escalables.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Habilidades Técnicas</h2>
+            <ul>
+                <li>Lenguajes: Java, Python, JavaScript</li>
+                <li>Bases de datos: SQL, MongoDB</li>
+                <li>Frameworks: Spring Boot, React</li>
+                <li>DevOps: Docker, AWS</li>
+                <!-- Añade tus habilidades reales -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Email: <a href="mailto:tuemail@ejemplo.com">tuemail@ejemplo.com</a></p>
+            <p>LinkedIn: <a href="https://linkedin.com/in/tuperfil" target="_blank">linkedin.com/in/tuperfil</a></p>
+            <p>GitHub: <a href="https://github.com/tusuario" target="_blank">github.com/tusuario</a></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Humberto Letelier Vergara. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Año automático en el footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
